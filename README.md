@@ -31,7 +31,8 @@
 
 <ul>
   <li>Copy colab notebook: https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb</li>
-  <li>Add the following cells in Train section (after logging) to intergrate notebook with Google Drive: </li>
+  <li>Turn on GPU in colab: execution environment -> change type of execution environment -> GPU.</li>
+  <li>Add the following cells in "Train" section (after logging) to intergrate notebook with Google Drive: </li>
   <br>
   from google.colab import drive <br>
   drive.mount('/content/gdrive')<br>
@@ -43,5 +44,26 @@
   !cp /mydrive/yolov5/custom_data.yaml /content/yolov5/data
 
   <li>Run setup section.</li>
-  <li>Download /content/yolov5/data/coco128.yaml and adjust it to your needs. Save it as custom_data.yaml and upload it to yolov5 folder on your google drive.</li>
+  <li>Download /content/yolov5/data/coco128.yaml and adjust it to your needs - see custom_data.yaml in this repo. Save it as custom_data.yaml and upload it to yolov5 folder on your google drive.</li>
+  <li>Run cells you've added in colab notebook.</li>
+  <li>Run last cell in "Train" section set: </li>
+  <ul>
+    <li>data: custom_data.yaml</li>
+    <li>epochs: I suggest starting with 50, you can play around with it</li>
+    <li>batch: play around with it, start with 16 or 32</li>
+    <li>leave rest as is</li>
+  </ul>
+  <li>After training is done, you model will be stored in /runs/train/exp/weights in colab</li>
+</ul>
+
+<h2>3. Test</h2>
 <ul>
+  <li>Run 2nd cell in "Test" section, set: </li>
+  <ul>
+    <li>weights: path to model</li>
+    <li>source: path to image</li>
+  </ul>
+  <li>Result will be stored in yolov5/runs/detect/ in colab</li>
+  <li>You can display detection by adding cell: display.Image(filename='path to res image', width=600)</li>
+</ul>
+
