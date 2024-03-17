@@ -16,7 +16,9 @@
 ![Screenshot_8](https://github.com/Koks-creator/HowToTrainCustomYoloV5Model/assets/73878161/0ccd0b77-abd0-4353-b798-19cac6e728a8)
 
   <li>Run labelimg - type: labelimg in terminal.</li>
-  <li>Open dir with images, set "save dir", set output file type to "YOLO".</li>
+  <li>Copy images to images/train folder.</li>
+  <li>Open dir with images (images/train), set "save dir" (labels/train), set output file type to "YOLO".</li>
+  <li>You can do the same for val data, if you have larger dataset you can go for 80% train and 20% val, if you don't - use like 10-20 files, nobody cares.</li>
 
   ![Screenshot_9](https://github.com/Koks-creator/HowToTrainCustomYoloV5Model/assets/73878161/9e6ef5f1-45b9-4c45-844f-01d2dacf6341)
 
