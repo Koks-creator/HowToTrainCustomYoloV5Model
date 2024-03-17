@@ -46,7 +46,7 @@
   <li>Run setup section.</li>
   <li>Download /content/yolov5/data/coco128.yaml and adjust it to your needs - see custom_data.yaml in this repo. Save it as custom_data.yaml and upload it to yolov5 folder on your google drive.</li>
   <li>Run cells you've added in colab notebook.</li>
-  <li>Run last cell in "Train" section set: </li>
+  <li>Run last cell in "Train" section, set: </li>
   <ul>
     <li>data: custom_data.yaml</li>
     <li>epochs: I suggest starting with 50, you can play around with it</li>
