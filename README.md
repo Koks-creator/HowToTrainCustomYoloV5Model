@@ -21,7 +21,7 @@
   ![Screenshot_9](https://github.com/Koks-creator/HowToTrainCustomYoloV5Model/assets/73878161/9e6ef5f1-45b9-4c45-844f-01d2dacf6341)
 
 <li>Label by clicking "Create RectBox" and set label - do it for all of images, the more images the better./</li>
-<li>Your classes will be stored in classes.txt file in output dir./</li>
+<li>Your classes will be stored in classes.txt file in output dir.</li>
 <li>Once you're done, create zip file and upload it to yolov5 folder in homepage of google drive (create yolov5 folder if doesn't exist)./</li>
   </ul>
 </ul>
