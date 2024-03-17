@@ -53,7 +53,7 @@
     <li>batch: play around with it, start with 16 or 32</li>
     <li>leave rest as is</li>
   </ul>
-  <li>After training is done, you model will be stored in /runs/train/exp/weights in colab</li>
+  <li>After training is done, your model will be stored in /runs/train/exp/weights in colab</li>
 </ul>
 
 <h2>3. Test</h2>
