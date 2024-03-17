@@ -12,6 +12,7 @@
     <li>Download images</li>
     <li>Unpack them, delete non png/jpg files</li>
     <li>Prepare train data folder structure:</li>
-      ![structure](https://github.com/Koks-creator/TrafficLightsDetection/assets/73878161/708d82e3-833c-4912-963a-da8931640739)
+    ![Screenshot_8](https://github.com/Koks-creator/HowToTrainCustomYoloV5Model/assets/73878161/4146deba-c84a-4726-81b9-0ab44e108884)
+
   </ul>
 </ul>
