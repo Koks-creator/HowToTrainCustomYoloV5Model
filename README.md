@@ -12,7 +12,8 @@
     <li>Download images</li>
     <li>Unpack them, delete non png/jpg files</li>
     <li>Prepare train data folder structure:</li>
-    ![Screenshot_8](https://github.com/Koks-creator/HowToTrainCustomYoloV5Model/assets/73878161/4146deba-c84a-4726-81b9-0ab44e108884)
+
 
   </ul>
 </ul>
+![Screenshot_8](https://github.com/Koks-creator/HowToTrainCustomYoloV5Model/assets/73878161/45aad307-327a-4622-9f24-99e42ce52b24)
